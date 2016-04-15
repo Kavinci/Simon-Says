@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>Simon Says</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="simon.js"></script>
+
+<link rel="icon" href="#" type="image/x-icon">
+
+</header>
+<body>
+
+<style>
+body
+{
+      background: grey;
+      color: white;
+}
+</style>
+<div class="jumborton">
+<h1>Simon Says</h1>
+
+<p>Here is a little javascript application of the classic game of Simon.
+   I used javascript, SVG (created in Adobe Illustrator), and JQuery to create this little thing.</p>
+<ul>
+  So here are the rules:
+   <li>The game starts with just 2 lights to memorize.</li>
+   <li>Each level adds 2 more lights to remember until level 10 then each level only adds 1 more light.</li>
+   <li>Each round has a 2 minute limit up to level 15 and then 3 minutes after that to prevent stagnant games.</li>
+   <li>The game only has 30 levels. That is a total of 40 lights.</li>
+</ul>
+
+<p>Just press the round red button when you are ready to play. Press the round yellow button to pause the timer at anytime
+    to pause the game. Press the round red button to start the timer again. Pressing the red round button will replay the last
+    sequence and then you know the rest. Have fun!</p>
+</div></br></br>
+
+    <svg version="1.1" id="simon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    	 viewBox="0 0 500 500" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+    <style type="text/css">
+    	.redoff{fill:#ED1C24;}
+      .redon{fill:#FF0000;}
+    	.yellowoff{fill:#D8D827;}
+      .yellowon{fill:#FFFF00;}
+    	.greenoff{fill:#39B54A;}
+      .greenon{fill:#00FF00;}
+    	.blueoff{fill:#29ABE2;}
+      .blueon{fill:#0000FF;}
+    	.st4{fill:#4D4D4D;stroke:#000000;stroke-width:25;stroke-miterlimit:10;}
+    	.st5{stroke:#000000;stroke-miterlimit:10;}
+    	.st6{fill:#FF0000;stroke:#333333;stroke-width:5;stroke-miterlimit:10;}
+    	.st7{fill:#FCEE21;stroke:#333333;stroke-width:5;stroke-miterlimit:10;}
+    	.st8{fill:none;}
+    </style>
+    <circle id="XMLID_4_" cx="250" cy="250" r="250"/>
+    <path id="red" class="redoff" d="M249.7,149.3l-0.2-124l0,0c124.3,0,224.8,97.9,224.8,224.9h0.2H351.3L249.7,149.3z"/>
+    <path id="yellow" class="yellowoff" d="M250.2,351.4l0.2,123.9l0,0c-124.3,0-224.8-98.1-224.8-225.1h-0.2h123.2L250.2,351.4z"/>
+    <path id="green" class="greenoff" d="M149.6,250.3l-123.9,0.2l0,0c0-124.3,98.1-224.8,225.1-224.8v-0.2v123.2L149.6,250.3z"/>
+    <path id="blue" class="blueoff" d="M350.9,250.7l123.8-0.2l0,0c0,124.3-99.9,224.8-224.9,224.8v0.2V352.3L350.9,250.7z"/>
+    <rect id="XMLID_7_" x="237" y="16.3" width="25" height="464.7"/>
+    <rect id="XMLID_8_" x="17.1" y="238" width="464.7" height="25"/>
+    <circle id="XMLID_6_" class="st4" cx="249.8" cy="249.5" r="112.5"/>
+    <rect id="XMLID_61_" x="173.2" y="231.9" class="st5" width="153.9" height="66.9"/>
+    <circle id="start" class="st6" cx="224.3" cy="318.7" r="12.5"/>
+    <circle id="pause" class="st7" cx="275.3" cy="318.7" r="12.5"/>
+    <path id="XMLID_x5F_64_x5F__1_" class="st8" d="M172.8,225.9h154"/>
+    <text id="XMLID_65_"><textPath  xlink:href="#XMLID_x5F_64_x5F__1_" startOffset="0.65%">
+    <tspan  style="fill:#CCCCCC;stroke:#666666;stroke-miterlimit:10; font-family:'Impact'; font-size:54px;">SIMON</tspan></textPath>
+    </text>
+    <path id="XMLID_x5F_66_x5F__1_" class="st8" d="M172.8,293.7h154"/>
+    <text id="XMLID_69_"><textPath  xlink:href="#XMLID_x5F_66_x5F__1_" startOffset="50.293%">
+    <tspan  class="redoff" style="font-family:'CourierNewPSMT'; font-size:30px;">2:00</tspan></textPath>
+    </text>
+    <path id="XMLID_x5F_67_x5F_" class="st8" d="M173.8,262.7h154"/>
+    <text id="XMLID_68_"><textPath  xlink:href="#XMLID_x5F_67_x5F_" startOffset="0.6348%">
+    <tspan  class="redoff" style="font-family:'CourierNewPSMT'; font-size:30px;">Level 00</tspan></textPath>
+    </text>
+    </svg>
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ED1C24;}
+	.st1{fill:#FCEE21;}
+	.st2{fill:#39B54A;}
+	.st3{fill:#29ABE2;}
+	.st4{fill:#4D4D4D;stroke:#000000;stroke-width:25;stroke-miterlimit:10;}
+	.st5{stroke:#000000;stroke-miterlimit:10;}
+	.st6{fill:#FF0000;stroke:#333333;stroke-width:5;stroke-miterlimit:10;}
+	.st7{fill:#FCEE21;stroke:#333333;stroke-width:5;stroke-miterlimit:10;}
+	.st8{fill:none;}
+</style>
+<circle id="XMLID_4_" cx="250" cy="250" r="250"/>
+<path id="XMLID_5_" class="st0" d="M249.7,149.3l-0.2-124l0,0c124.3,0,224.8,97.9,224.8,224.9h0.2H351.3L249.7,149.3z"/>
+<path id="XMLID_1_" class="st1" d="M250.2,351.4l0.2,123.9l0,0c-124.3,0-224.8-98.1-224.8-225.1h-0.2h123.2L250.2,351.4z"/>
+<path id="XMLID_2_" class="st2" d="M149.6,250.3l-123.9,0.2l0,0c0-124.3,98.1-224.8,225.1-224.8v-0.2v123.2L149.6,250.3z"/>
+<path id="XMLID_3_" class="st3" d="M350.9,250.7l123.8-0.2l0,0c0,124.3-99.9,224.8-224.9,224.8v0.2V352.3L350.9,250.7z"/>
+<rect id="XMLID_7_" x="237" y="16.3" width="25" height="464.7"/>
+<rect id="XMLID_8_" x="17.1" y="238" width="464.7" height="25"/>
+<circle id="XMLID_6_" class="st4" cx="249.8" cy="249.5" r="112.5"/>
+<rect id="XMLID_61_" x="173.2" y="231.9" class="st5" width="153.9" height="66.9"/>
+<circle id="XMLID_62_" class="st6" cx="224.3" cy="318.7" r="12.5"/>
+<circle id="XMLID_63_" class="st7" cx="275.3" cy="318.7" r="12.5"/>
+<path id="XMLID_x5F_64_x5F__1_" class="st8" d="M172.8,225.9h154"/>
+<text id="XMLID_65_"><textPath  xlink:href="#XMLID_x5F_64_x5F__1_" startOffset="0.6348%">
+<tspan  style="fill:#CCCCCC;stroke:#666666;stroke-miterlimit:10; font-family:'Impact'; font-size:54px;">SIMON</tspan></textPath>
+</text>
+<path id="XMLID_x5F_66_x5F__1_" class="st8" d="M172.8,293.7h154"/>
+<text id="XMLID_69_"><textPath  xlink:href="#XMLID_x5F_66_x5F__1_" startOffset="50.293%">
+<tspan  class="st0" style="font-family:'CourierNewPSMT'; font-size:30px; letter-spacing:-5.4;">2:00</tspan></textPath>
+</text>
+<path id="XMLID_x5F_67_x5F_" class="st8" d="M173.8,262.7h154"/>
+<text id="XMLID_68_"><textPath  xlink:href="#XMLID_x5F_67_x5F_" startOffset="0.6348%">
+<tspan  class="st0" style="font-family:'CourierNewPSMT'; font-size:30px; letter-spacing:-5.4;">Level  00</tspan></textPath>
+</text>
+</svg>
